@@ -1,0 +1,17 @@
+.router-link-active {
+    background-color: black;
+}
+
+.block-full-height {
+    min-height: 80vh;
+}
+
+body {
+    padding-top: 80px;
+    min-height: 200vh;
+}
+
+.section-fixed {
+    position: fixed;
+    width: 100%;
+}
