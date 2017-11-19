@@ -8,13 +8,25 @@
       </button>
 
       <nav-items></nav-items>
-      
+      <div class="btn-group">
+        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Profile</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <div class="dropdown-divider"></div>
+          <router-link class="nav-item" tag="li" to="/">
+            <button class="dropdown-item" type="button">Logout</button>
+          </router-link>
+        </div>
+      </div>
     </nav>
   </div>
 </template>
 
 <script>
-import navItems from './nav-items.vue'
+  import navItems from './nav-items.vue'
   export default {
     name: 'nav-list',
     components: {
@@ -26,5 +38,11 @@ import navItems from './nav-items.vue'
 <style scoped>
   form input {
     width: 100%;
+  }
+
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+    top: 57px;
   }
 </style>
