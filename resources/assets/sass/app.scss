@@ -1,17 +1,29 @@
-.router-link-active {
-    background-color: black;
-}
+.router-link-active {}
 
 .block-full-height {
     min-height: 80vh;
 }
 
+.full-block__post {
+    width: 100%;
+    background-color: #fcfcfc;
+}
+
+.picture-placeholder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
 body {
     padding-top: 80px;
-    min-height: 200vh;
 }
 
 .section-fixed {
     position: fixed;
     width: 100%;
+}
+
+.btn {
+    cursor: pointer;
 }

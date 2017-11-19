@@ -9,8 +9,10 @@
             <div class="text-center">
               <br>
               <div class="picture"></div>
-              <a href="">Hi, User!</a>
-
+              <router-link class="nav-item" to="/profile">
+                  <a class="nav-link" href="">Hi, User!</a>
+              </router-link>
+              
               <hr>
               <a class="btn btn-success" type="submit">Join a Class</a>
               <p class="text-left mt-2">Classes</p>
